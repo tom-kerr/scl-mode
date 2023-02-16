@@ -203,8 +203,8 @@
 
 (define-derived-mode
   scl-mode fundamental-mode
-  "IEC 61131"
-  "A major mode for editing Structured Text files after IEC 61131-3"
+  "SIEMENS SCL"
+  "A major mode for editing Structured Control Language files"
   :syntax-table scl-mode-syntax-table
   (setq-local comment-start "(*")
   (setq-local comment-end "*)")
